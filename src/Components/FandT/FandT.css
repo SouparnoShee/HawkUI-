@@ -1,0 +1,355 @@
+.container-FandT {
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Heading {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #1B6159;
+}
+
+.fandtbox1 {
+    width: 80%;
+    height: auto;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.fandtbox1 h2 {
+    font-size: 30px;
+    color: #1B6159;
+    margin: 40px 0px;
+}
+
+.fandtcodebox {
+    height: auto;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background: #000; */
+}
+
+
+.fandtboxexp {
+    height: auto;
+    width: 90%;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-simple {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(22, 104, 255);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+}
+
+.Form-primary input {
+    height: 34px;
+    width: 350px;
+    margin: 10px 0px;
+    border: 0.3px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.Form-primary label {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.Form-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.fandtbox2 {
+    width: 80%;
+    height: auto;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.fandtbox2 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.fandtboxexp2 {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Form-secondary {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Form-secondary input {
+    height: 34px;
+    width: 100%;
+    margin: 10px 0px;
+    border: 0.3px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+
+.Form-secondary textarea {
+    height: 94px;
+    width: 100%;
+    margin: 10px 0px;
+    border: 0.3px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.Form-secondary label {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+
+.fandtbox3 {
+    width: 80%;
+    height: auto;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.fandtbox3 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fandtboxexp3 {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.form-box {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    border: 1px solid #fff;
+}
+
+.leftBox {
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightBox {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightBox form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.rightBox input {
+    height: 34px;
+    width: 100%;
+    margin: 20px 0px;
+    border-style: none;
+    border-bottom: 0.3px solid gray;
+    padding: 10px 10px;
+    font-size: 10px;
+    outline-color: aquamarine;
+}
+
+.rightBox label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 900px) {
+    .leftBox {
+        display: none;
+    }
+
+    .rightBox {
+        width: 100%;
+    }
+}
+
+
+
+
+.fandtbox4 {
+    width: 80%;
+    height: auto;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.fandtbox4 span{
+    margin: 40px 0px;
+    font-size: 28px;
+    width: 90%;
+    text-align: center;
+}
+
+.fandtboxexp4
+{
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: white; */
+    margin: 30px 0px;
+}
+
+.fandtboxexp4 table{
+    margin: 20px 0px;
+    background-color: white;
+}
+
+    /* shaded table style */
+    .shaded-table {
+        width: 100%;
+    }
+    .shaded-table th{
+        font-size: 20px;
+    }
+
+    .shaded-table th,
+    td {
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        height: 30px;
+    }
+
+    .shaded-table td {
+        border-right: 1px solid #ddd;
+    }
+
+    .shaded-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+
+
+    /* hover table styles */
+    .hover-table{
+        width: 100%;
+    }
+
+    .hover-table th{
+        font-size: 20px;
+    }
+    .hover-table td{
+        border-right: 0.5px solid #ddd;
+        transition: 0.4s;
+    }
+    .hover-table td:hover{
+        background-color: blue;
+        color: #fff;
+    }
+
+
+
+    @media (max-width: 800px) {
+        .fandtcodebox{
+            width: 90%;
+        }
+        .fandtbox1, .fandtbox2, .fandtbox3, .fandtbox4{
+            width: 90%;
+        }
+        .fandtbox1 h2, .fandtbox2 h2, .fandtbox3 h2, .fandtbox4 span{
+            font-size: 18px;
+            width: 90%;
+            text-align: center;
+        }
+        .Heading{
+            font-size: 35px;
+        }
+        .Form-primary input {
+            height: 34px;
+            width: 200px;
+            margin: 10px 0px;
+            border: 0.3px solid gray;
+            border-radius: 10px;
+            padding: 10px 10px;
+        }
+    }

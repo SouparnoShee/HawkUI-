@@ -1,0 +1,214 @@
+.sec1 {
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec1 h1{
+    margin: 60px 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.containerStart{
+    height: 100vh;
+    width: 70%;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.containerStart h1{
+    color: #1B6159;
+}
+
+.containerPara{
+    display: flex;
+    flex-direction: column;
+    margin: 6px 12px;
+}
+
+.containerPara span{
+    margin: 4px;
+    font-size: 19px;
+}
+
+.containerstartCode{
+    height: auto;
+    width: 70%;
+
+}
+
+.containerstartCode .codeBox{
+    height: auto;
+    /* width: 100%; */
+    background-color: #000;
+}
+
+.container-view{
+    color: #1B6159;
+}
+.container-view-para{
+    width: 100%;
+}
+
+.container-view-para span{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    width: 90%;
+    margin: 6px 12px;
+}
+
+.container-row-elements{
+    height: 100%;
+    width: 70%;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.container-row-elements h1{
+    color: #1B6159;
+}
+
+.container-row-para{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 18px;
+}
+
+.container-row-para span{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container-row-codebox{
+    height: auto;
+    width: 70%;
+    margin-top: 15px;
+
+}
+
+.container-row-codebox .codeBox{
+    height: 100%;
+    /* width: 100%; */
+    background-color: #000;
+}
+
+.container-row-example{
+    height: 150px;
+    width: 70%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 28px;
+
+    
+}
+
+
+.container-row-example .half-grid{
+    width: 90%;
+    border: 1px solid #000;
+    display: flex;
+    
+    margin: 8px;
+}
+
+.half-grid div{
+    width: 50%;
+    border: 1px solid #000;
+}
+.one-twothird-grid{
+    width: 90%;
+    border: 1px solid #000;
+    display: flex;
+    margin: 8px;
+}
+
+.one-twothird-grid div{
+    width: 30%;
+    border: 1px solid #000;
+}
+
+.one-twothird-grid div:nth-child(2){
+    width: 70%;
+}
+
+.one-two-fourth-grid{
+    width: 90%;
+    border: 1px solid #000;
+    display: flex;
+    margin: 8px;
+}
+.one-two-fourth-grid div{
+    width: 20%;
+    border: 1px solid #000;
+}
+
+.one-two-fourth-grid div:nth-child(2){
+    width: 80%;
+}
+
+@media (max-width:800px) {
+    .containerStart{
+        height: 100vh;
+        width: 90%;
+    }
+    
+    .containerStart h1{
+        font-size: 35px;
+    }
+    
+    .containerPara{
+        margin: 6px 22px;
+    }
+    
+
+    .containerstartCode{
+        width: 85%;
+    
+    }
+    .container-view-para span{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+    .container-row-elements{
+        height: 100%;
+        width: 90%;
+    }
+    .container-row-elements h1{
+        font-size: 38px;
+    }
+    .container-row-codebox{
+        height: 400px;
+        width: 85%;
+        margin-top: 15px;
+    
+    }
+}

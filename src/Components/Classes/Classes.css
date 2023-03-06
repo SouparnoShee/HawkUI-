@@ -1,0 +1,94 @@
+.ClassesContainer {
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.classesheading {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #1B6159;
+}
+
+.Classesbox {
+    width: 80%;
+    height: auto;
+    background-color: #FFEBAD;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.Classesbox span:nth-child(1) {
+    margin-top: 40px;
+}
+
+.Classesbox span {
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.expFlex1, .expFlex3{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.expFlex1 div{
+    padding: 5px 5px;
+    border: 2px solid black;
+}
+
+.expFlex2, .expFlex4{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px 0px;
+}
+
+.expFlex2 div, .expFlex3 div, .expFlex4 div{
+    padding: 5px 5px;
+    border: 2px solid black;
+}
+
+.expFlex3{
+    justify-content: space-around;
+}
+
+.expFlex4{
+    justify-content: space-around;
+}
+
+@media (max-width:500px) {
+    .Classesbox span {
+        margin: 20px 0px;
+        font-size: 14px;
+        width: 90%;
+        text-align: center;
+    }
+    .expFlex1, .expFlex3,.expFlex4, .expFlex2{
+        width: 80%;
+    }
+    
+}

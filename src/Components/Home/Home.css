@@ -1,0 +1,284 @@
+.section1 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #A5F1E9;
+}
+
+.section1 img {
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.section1 p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1B6159;
+
+}
+
+.section1 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 22px;
+    margin-top: 20px;
+    background-color: #1B6159;
+    border-radius: 8px;
+}
+
+.section2 {
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section2 h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+    color: #1B6159;
+    text-align: center;
+}
+
+.DownloadCSS {
+    height: 500px;
+    width: 40%;
+    background-color: #FFF6BF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.DownloadCSS h2 {
+    font-size: 35px;
+}
+
+.DownloadCSS p {
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.DownloadCSS img {
+    height: 200px;
+}
+
+.DownloadCSS a {
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #1B6159;
+    color: #fff;
+    border-radius: 12px;
+}
+
+
+.section3 {
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BasicHTML{
+    height: 700px;
+    width: 70%;
+    background-color: #FFF6BF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+
+.BasicHTML h1{
+    font-size: 35px;
+    margin: 2px 12px;
+}
+
+.basicHTMLpara{
+    display: flex;
+    flex-direction: column;
+    margin: 2px 12px;
+}
+
+.basicHTMLpara span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.BasicHtmlCode{
+    height: auto;
+    width: 70%;
+}
+
+.blackBox{
+    height: auto;
+    width: 100%;
+    background: #000;
+}
+
+.section4{
+    background-color: #7FE9DE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.StylingIntro{
+    height: 600px;
+    width: 70%;
+    background-color: #FFF6BF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 60px;
+    box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -webkit-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+    -moz-box-shadow: 6px 8px 5px -3px rgba(64, 64, 64, 0.58);
+}
+.StylingIntro h1{
+    font-size: 2.5vw;
+    color: #1B6159;
+}
+
+.Stylingintropara{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Stylingintropara span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .section1 img {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    
+    .section1 p {
+        font-size: 14px;
+        font-weight: 600;
+        color: #1B6159;
+        text-align: center;
+    
+    }
+    
+    .section1 a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 16px;
+        margin-top: 20px;
+        background-color: #1B6159;
+        border-radius: 8px;
+    }
+
+    .section2 h1{
+        font-size: 40px;
+    }
+
+    .DownloadCSS {
+        height: 500px;
+        width: 80%;
+
+    }
+    
+    .DownloadCSS h2 {
+        font-size: 30px;
+    }
+    
+    .DownloadCSS p {
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    
+    .DownloadCSS img {
+        height: 150px;
+    }
+    
+    .DownloadCSS a {
+        padding: 8px 16px;
+
+    }
+
+    .BasicHTML{
+        height: 700px;
+        width: 90%;
+    }
+    
+    .BasicHTML h1{
+        font-size: 25px;
+        margin: 2px 12px;
+    }
+    
+    .basicHTMLpara{
+        display: flex;
+        flex-direction: column;
+        margin: 2px 16px;
+    }
+    
+    .basicHTMLpara span{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .BasicHtmlCode{
+        height: auto;
+        width: 80%;
+    }
+
+    .StylingIntro{
+        height: 600px;
+        width: 85%;
+       
+    }
+    .StylingIntro h1{
+        font-size: 3.5vw;
+        color: #1B6159;
+    }
+    
+    .Stylingintropara{
+        height: 70%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    
+    .Stylingintropara span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

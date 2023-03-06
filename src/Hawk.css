@@ -1,0 +1,473 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* CONTAINERS */
+
+    /* container- gives a width of 100% and aligned according to viewport*/
+    /* container-medium - width of 1000px */
+    /* container-small - width of 800px */
+    /* container-view - a 100% width and a screen size height*/
+    /* flex-all-center - centerd all the elements in center in row */
+    /* flex-all-center-column - centerd all the elements in center in column */
+    /* flex-center-equal-divide - centered elements and equally divided according to width in row */
+    /* flex-center-equal-divide-column - centered elements and equally divided according to width in column*/
+
+
+    /* container-row - container where elements will place in row */
+    /* half - half of the width */
+    /* one-third - one-third of the width */
+    /* two-third - two-third of the width */
+    /* one-fourth - one-fourth of the width */
+    /* three-fourth - three-fourth  of the width */
+
+
+    .container-view {
+        /* border: 1px solid black; */
+        height: 100vh;
+        width: 100%;
+    }
+
+    .container,
+    .container-medium,
+    .container-small {
+        max-width: 100%;
+        height: auto;
+        padding: 0 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+    }
+
+    .container-medium {
+        max-width: 1000px;
+    }
+
+    .container-small {
+        max-width: 800px;
+    }
+
+    .flex-all-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-all-center-column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .flex-center-equal-divide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .flex-center-equal-divide-column {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+    .container-row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .half {
+        width: 50%;
+    }
+
+    .one-third {
+        width: 30%;
+    }
+
+    .two-third {
+        width: 70%;
+    }
+
+    .one-fourth {
+        width: 20%;
+    }
+
+    .three-fourth {
+        width: 80%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* CARDS */
+    /* container-card - used for the bard responsive background */
+    /* card-box - used to stylize the card */
+
+    .container-card {
+        max-width: 100%;
+        height: auto;
+        padding: 0 1rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .card-box {
+        width: 20%;
+        height: 350px;
+        margin: 20px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+
+    }
+
+    .card-box span {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .card-box img {
+        height: 100px;
+        width: 50%;
+        object-fit: cover;
+        box-sizing: border-box;
+
+    }
+
+    @media (max-width:1200px) {
+        .card-box {
+            width: 40%;
+        }
+    }
+
+    @media (max-width:600px) {
+        .card-box {
+            width: 90%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* BUTTONS */
+
+    /* Simple button collections with classes */
+
+    /* button-simple - blue button */
+    /* button-red - red button */
+    /* button-green - green button */
+    /* btnShadow - puts shadow in buttons */
+    /* roundedBtn - Makes a round button */
+
+    /* Primary Blue */
+    .button-simple {
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.3em;
+        color: #fff;
+        background-color: rgb(22, 104, 255);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+    }
+
+    .button-simple:hover {
+        background-color: rgb(3, 89, 248);
+        cursor: pointer;
+    }
+
+    /* Red button */
+    .button-red {
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.3em;
+        color: #fff;
+        background-color: rgb(236, 17, 65);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+    }
+
+    .button-red:hover {
+        background-color: rgb(226, 0, 49);
+        cursor: pointer;
+    }
+
+    /* Green Button */
+    .button-green {
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.3em;
+        color: #fff;
+        background-color: rgb(0, 226, 113);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+    }
+
+    .button-green:hover {
+        background-color: rgb(1, 180, 91);
+        cursor: pointer;
+    }
+
+    /* shadow applied to anything */
+    .btnShadow {
+        -webkit-box-shadow: 2px 6px 20px 0px rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 2px 6px 20px 0px rgba(0, 0, 0, 0.26);
+        box-shadow: 2px 6px 20px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    /* for Rounded button */
+    .roundedBtn {
+        border-radius: 50px;
+    }
+
+    /* Outline buttons */
+    /* TO-DO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* FORMS */
+
+    /* Form-primary - gives a simple username passord small form */
+    /* Form-secondary - gives a whole form with more width and all details */
+    /* Stylize form - need to be copy the whole and a stylish form is ready  */
+
+    .button-simple {
+        outline: none;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        color: #fff;
+        background-color: rgb(22, 104, 255);
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+    }
+
+    .Form-primary input {
+        height: 34px;
+        width: 350px;
+        margin: 10px 0px;
+        border: 0.3px solid gray;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .Form-primary label {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .Form-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+
+
+    /* Secondary form */
+    .Form-secondary {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .Form-secondary input {
+        height: 34px;
+        width: 100%;
+        margin: 10px 0px;
+        border: 0.3px solid gray;
+        border-radius: 10px;
+        padding: 10px 10px;
+
+    }
+
+    .Form-secondary textarea {
+        height: 94px;
+        width: 100%;
+        margin: 10px 0px;
+        border: 0.3px solid gray;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    .Form-secondary label {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+
+
+    /* stylize form  */
+    .form-box {
+        width: 80%;
+        height: 80%;
+        display: flex;
+    }
+
+    .leftBox {
+        height: 100%;
+        width: 50%;
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightBox {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .rightBox form {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .rightBox input {
+        height: 34px;
+        width: 100%;
+        margin: 20px 0px;
+        border-style: none;
+        border-bottom: 0.3px solid gray;
+        padding: 10px 10px;
+        font-size: 10px;
+        outline-color: aquamarine;
+    }
+
+    .rightBox label {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    @media (max-width: 900px) {
+        .leftBox {
+            display: none;
+        }
+
+        .rightBox {
+            width: 100%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+    /* Tables */
+
+    /* shaded-table- a shaded table of grey and white */
+    /* hover-table - a table that hover */
+
+
+    /* shaded table style */
+    .shaded-table {
+        width: 100%;
+    }
+    .shaded-table th{
+        font-size: 20px;
+    }
+
+    .shaded-table th,
+    td {
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+        height: 30px;
+    }
+
+    .shaded-table td {
+        border-right: 1px solid #ddd;
+    }
+
+    .shaded-table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+
+
+    /* hover table styles */
+    .hover-table{
+        width: 100%;
+    }
+
+    .hover-table th{
+        font-size: 20px;
+    }
+    .hover-table td{
+        border-right: 0.5px solid #ddd;
+        transition: 0.4s;
+    }
+    .hover-table td:hover{
+        background-color: blue;
+        color: #fff;
+    }
