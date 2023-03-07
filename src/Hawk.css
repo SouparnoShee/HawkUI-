@@ -255,8 +255,25 @@
         border-radius: 50px;
     }
 
+
     /* Outline buttons */
-    /* TO-DO */
+/* for outline button */
+.button-outline{
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+}
+
+.button-outline:hover{
+    border: 1px solid #000;
+    cursor: pointer;
+}
 
 
 

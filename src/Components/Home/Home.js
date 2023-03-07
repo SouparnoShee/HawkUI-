@@ -35,7 +35,7 @@ const Home = () => {
                     <h2>Download Css</h2>
                     <p>Download and Implement the <br /> Css file in the head of the HTML file</p>
                     <img src={CssLogo} alt="Not found" />
-                    <a href="/">Click Here to download</a>
+                    <a href="https://raw.githubusercontent.com/SouparnoShee/HawkUI-/master/src/Hawk.css">Click Here to download</a>
                 </div>
             </div>
             <div className="section3">
